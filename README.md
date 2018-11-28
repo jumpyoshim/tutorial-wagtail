@@ -2,12 +2,9 @@
 https://wagtail.io/
 
 # Run Locally
+Maku sure you have [Docker Compose](https://docs.docker.com/compose/install/).
 
 ```console
-$ pipenv install
-$ cd mysite
-$ pipenv run pip3 install -r requirements.txt
-$ pipenv run python3 manage.py migrate
-$ pipenv run python3 manage.py createsuperuser
-$ pipenv run python3 manage.py runserver
+$ cp .env.example .env
+$ docker-compose up
 ```
