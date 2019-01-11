@@ -8,3 +8,9 @@ Maku sure you have [Docker Compose](https://docs.docker.com/compose/install/).
 $ cp .env.example .env
 $ docker-compose up
 ```
+
+## Superuser
+
+|email|password|
+|:-:|:-:|
+|admin@example.com|admin|
