@@ -1,7 +1,5 @@
 FROM python:3.7
 
-LABEL maintainer="jumpyoshim <jumpyoshim@gmail.com>"
-
 ENV PYTHONUNBUFFERED 1
 
 ENV DOCKERIZE_VERSION v0.6.1

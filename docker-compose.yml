@@ -12,6 +12,7 @@ services:
       bash -c "dockerize -wait tcp://db:5432
       && pipenv install --system --dev
       && python3 manage.py migrate
+      && python3 manage.py createsuperuser_with_password --email admin@example.com --password admin
       && python3 manage.py collectstatic --noinput
       && python3 manage.py runserver 0.0.0.0:8000"
     working_dir: /app/mysite
