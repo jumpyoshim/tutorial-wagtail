@@ -13,4 +13,4 @@ $ docker-compose up
 
 |email|password|
 |:-:|:-:|
-|admin@example.com|password|
+|admin@example.com|admin|
