@@ -21,11 +21,13 @@ ALLOWED_HOSTS = [os.environ['ALLOWED_HOSTS']]
 # Application definition
 
 INSTALLED_APPS = [
+    # Local apps
     'blog',
     'dashboard',
     'home',
     'search',
 
+    # Third party apps
     'wagtail.contrib.forms',
     'wagtail.contrib.redirects',
     'wagtail.embeds',
@@ -41,6 +43,7 @@ INSTALLED_APPS = [
     'modelcluster',
     'taggit',
 
+    # Django apps
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
